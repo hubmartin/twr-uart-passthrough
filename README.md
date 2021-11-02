@@ -3,11 +3,15 @@
 # Firmware Skeleton for HARDWARIO TOWER Core Module
 
 [![build](https://github.com/hardwario/twr-uart-passthrough/actions/workflows/main.yml/badge.svg)](https://github.com/hardwario/twr-uart-passthrough/actions/workflows/main.yml)
-[![Release](https://img.shields.io/github/release/hardwario/twr-skeleton.svg)](https://github.com/hardwario/twr-skeleton/releases)
-[![License](https://img.shields.io/github/license/hardwario/twr-skeleton.svg)](https://github.com/hardwario/twr-skeleton/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/release/hardwario/twr-uart-passthrough.svg)](https://github.com/hardwario/twr-uart-passthrough/releases)
+[![License](https://img.shields.io/github/license/hardwario/twr-uart-passthrough.svg)](https://github.com/hardwario/twr-uart-passthrough/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/hardwario_en.svg?style=social&label=Follow)](https://twitter.com/hardwario_en)
 
-This repository contains firmware skeleton for [Core Module](https://shop.hardwario.com/core-module).
+This firmware allows you to use Core Module as a simple UART passthrough device. It could be used to connect to the LoRa Module and reconfigure MuRata uart to correct speed (from 19200 baud to 9600 baud).
+
+More info here https://github.com/hardwario/twr-lora-tester#troubleshooting-lora-module-and-err-status
+
+This repository contains firmware for [Core Module](https://shop.hardwario.com/core-module).
 
 If you want to get more information about Core Module, firmware and how to work with it, please follow this link:
 
